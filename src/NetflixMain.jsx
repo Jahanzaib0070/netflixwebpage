@@ -6,7 +6,7 @@ import Ndata from "./Ndata";
 function NetflixMain(){
     return(
         <div className='Main'>
-            <h1>Top 4 Netflix Series</h1>
+            <h1>Top 5 Netflix Series</h1>
             <div className="Main-2">
                 
                 {Ndata.map((val) => {
